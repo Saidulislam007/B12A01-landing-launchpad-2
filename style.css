@@ -154,3 +154,83 @@
     align-items: flex-start;
     padding-bottom: 40px;
 }
+
+.our-user-say-h {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #1a1a2e;
+}
+
+
+.avatar-card-flex {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+
+.avater-card {
+  background-color: #ffffff;
+  padding: 32px;
+  width: 360px; 
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+
+.avater-card:hover {
+  transform: translateY(-5px);
+}
+
+
+
+
+.avater-card h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 16px 0 8px;
+  color: #1a1a2e;
+}
+
+
+.avater-card p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+
+.avator-rev-date {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+}
+
+
+.avator-rev-date img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+
+.gap-zero p:first-child {
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 4px;
+}
+
+.gap-zero p:last-child {
+  color: #aaa;
+  font-size: 13px;
+}
