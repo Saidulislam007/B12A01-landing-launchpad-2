@@ -244,12 +244,8 @@
     font-size: 13px;
 }
 
-.ready-to-focus {
-    height: 690px;
-    background-color: rgb(255, 255, 255);
-    margin-top: 137px;
-    justify-content: center;
-}
+
+
 .ready-to-focus-better {
     color: rgb(0, 0, 0);
     font-family: 'Raleway';
@@ -257,6 +253,7 @@
     font-weight: 700;
     line-height: 120%;
 }
+
 .ready-to-focus-better-p {
     color: rgba(0, 0, 0, 0.5);
     font-family: Inter;
@@ -264,6 +261,16 @@
     font-weight: 400;
     line-height: 140%;
 }
+
+.ready-to-focus {
+    text-align: center;
+    padding-top: 104px;
+    padding-bottom: 100px;
+    background: rgb(255, 255, 255);
+    width: 100%;
+
+}
+
 .btn-get {
     width: 195px;
     height: 48px;
@@ -277,6 +284,27 @@
 
 
 }
+
+.btn-get:hover {
+    background-color: #8a8b27;
+}
+
+
+.lets {
+    width: 528px;
+    height: 232px;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+}
+
 .lets-dhoira-mar {
     display: flex;
     justify-content: space-around;
@@ -285,11 +313,61 @@
     margin: 0 auto;
     gap: 40px;
 }
-.lets {
-    width: 528px;
-    height: 232px;
 
+.lets h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway';
+    font-size: 97px;
+    font-weight: 700;
 }
+
+.lets-dhoira-mar>div:nth-child(2) {
+    flex: 1;
+    max-width: 450px;
+}
+
+.lets-dhoira-mar label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.lets-dhoira-mar input,
+.lets-dhoira-mar textarea {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.lets-dhoira-mar textarea {
+    resize: vertical;
+}
+
+.lets-dhoira-mar button {
+    width: 100%;
+    padding: 14px;
+
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #4f46e5;
+}
+
+.lets-dhoira-mar button:hover {
+    background-color:#17124e;
+}
+
+
+
+
 
 
 
